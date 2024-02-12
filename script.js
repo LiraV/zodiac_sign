@@ -13,7 +13,7 @@ async function display_sign() {
     content = content.splice(0, 12)
 
     index = content.findIndex(obj => obj.name == sign);
-    console.log(content[index]);
+    console.log(content);
 
     const sign_field = document.getElementsByClassName('sign')[0];
     sign_field.innerText = sign;
