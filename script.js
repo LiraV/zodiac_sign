@@ -1,4 +1,4 @@
-var sign = 'Козерог';
+var sign = "Козерог";
 var number = 7;
 var sign_src = "img/Capricorn-PNG-File.png";
 
