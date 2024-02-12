@@ -1,0 +1,173 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.body_index {
+    font-family: 'Caveat';
+    color: white;
+    background-image: url("img/bg_index.png");
+}
+
+.body_fit {
+    font-family: 'Caveat';
+    color: white;
+    background-image: url("img/bg_fit.png");
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    background-color: rgb(0, 0, 0, 0.25);
+
+}
+
+.menu_text {
+    text-decoration: none;
+    color: white;
+    font-size: 48px;
+
+}
+
+.this_page {
+    list-style-type: none;
+    background-color: rgb(64, 64, 64);
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.page {
+    list-style-type: none;
+    padding-left: 5%;
+    padding-right: 5%;
+    /* padding-left: 8%;
+    padding-right: 8%; */
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10%;
+}
+
+.content_left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left_bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left_label {
+    font-size: 48px;
+}
+
+.left_text {
+    font-size: 40px;
+}
+
+.content_right {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.right_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.right_label {
+    font-size: 48px;
+}
+
+.left_par {
+    font-size: 40px;
+}
+
+table {
+    font-size: 24px;
+}
+
+table{
+
+    background: rgb(9,100,29);
+    background: -moz-radial-gradient(left, rgb(119,100,29)	 0%, rgb(70,63,46) 100%);
+    background: -webkit-radial-gradient(left, rgb(119,100,29)	 0%, rgb(70,63,46)  100%);
+    background: radial-gradient(to right, rgb(119,100,29)	 0%, rgb(70,63,46)  100%);
+  }
+
+  th, td {
+    background: transparent;
+    background-color: rgb(64, 64, 64);
+  }
+
+  .tarot_main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .tarot_left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tarot_center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tarot_right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .what_label {
+    font-size: 48px;
+  }
+
+  .tarot_li {
+    font-size: 40px;
+  }
+
+  .res_lable {
+    font-size: 48px;
+  }
+
+  .res {
+    font-size: 40px;
+  }
+
+  .take {
+    padding: 5%;
+    font-family: 'Caveat';
+    font-size: 48px;
+    background: #B18F01;
+    background: -moz-radial-gradient(left, #B18F01	 0%, #534014 100%);
+    background: -webkit-radial-gradient(left, #B18F01	 0%, #534014  100%);
+    background: radial-gradient(to right, #B18F01	 0%, #534014  100%);
+    border-radius: 20%;
+    color: white;
+    border-color: #B18F01;
+  }
